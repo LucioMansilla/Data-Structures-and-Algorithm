@@ -1,8 +1,9 @@
 # https://leetcode.com/problems/root-equals-sum-of-children/
 
+from tree.BinaryTree import BinaryTree
 import sys
 sys.path.append('../tree')
-from tree.BinaryTree import BinaryTree
+
 
 class Solution:
     def checkTree(self, root: BinaryTree) -> bool:
